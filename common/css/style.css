@@ -99,7 +99,7 @@ a {
 .menu {
    margin: auto;
    position: absolute;
-   top: 0;
+   top: 100px;
    bottom: 0;
    left: 0;
    right: 0;
@@ -257,35 +257,35 @@ a {
 } */
 
 .blue {
-   background-color: #006aff;
+   background-color: #509cff;
    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .blue:hover {
-   color: #006aff;
+   color: #509cff;
    text-shadow: none;
 }
 
 .green {
-   background-color: #818181;
+   background-color: #193cff;
    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .green:hover {
-   color: #818181;
+   color: #193cff;
    text-shadow: none;
 }
 
 .red {
-   background-color: #5a9efd;
+   background-color: #000d86;
    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .red:hover {
-   color: #5a9efd;
+   color: #000d86;
    text-shadow: none;
 }
 
@@ -339,6 +339,20 @@ a {
    text-decoration: underline;
 }
 
+.menu p {
+   color: #FFFFFF;
+   font-size: 16px;
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   -ms-transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+   margin:0;
+   padding:0;
+   font-family: 'Courier', monospace;
+}
+
 Resources
 
 /* リンク */
@@ -375,7 +389,11 @@ a:hover {
    margin: 0 auto;
 }
 
-#pageBody h1 {
+#pageHead #siteTitle {
+   font-family: 'Courier', monospace;
+}
+
+#pageBody #home {
    font-size: 50px;
    line-height: 10;
    text-align: center;
