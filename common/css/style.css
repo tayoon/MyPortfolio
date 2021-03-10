@@ -389,7 +389,8 @@ a:hover {
    margin: 0 auto;
 }
 
-#pageHead #siteTitle {
+#pageHead h1 {
+   font-size: 50px;
    font-family: 'Courier', monospace;
 }
 
