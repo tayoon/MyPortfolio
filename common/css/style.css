@@ -389,9 +389,18 @@ a:hover {
    margin: 0 auto;
 }
 
-#pageHead h1 {
+#pageHead #siteTitle {
    font-size: 50px;
    font-family: 'Courier', monospace;
+}
+
+#pageBody #main {
+   font-size: 50px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#pageBody #mainp {
+   font-size: 36px;
 }
 
 #pageBody #home {
