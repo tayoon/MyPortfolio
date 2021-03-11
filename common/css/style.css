@@ -405,7 +405,7 @@ a:hover {
 }
 
 #pageBody #mainp {
-   font-size: 24px;
+   font-size: 20px;
 }
 
 #pageBodyMain {
@@ -416,6 +416,9 @@ a:hover {
 #pageBodySub {
    width: 220px;
    float: left;
+}
+#pageBodyMain #education {
+   font-size: 24px;
 }
 
 #pageBody #home {
