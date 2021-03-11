@@ -385,7 +385,7 @@ a:hover {
 
 /* ページ */
 #page {
-   width: 980px;
+   width: 1200px;
    margin: 0 auto;
 }
 
@@ -394,13 +394,24 @@ a:hover {
    font-family: 'Courier', monospace;
 }
 
-#pageBody #mainh {
+#mainh {
    font-size: 50px;
+   text-align: left;
    font-family: 'Courier New', Courier, monospace;
 }
 
 #pageBody #mainp {
-   font-size: 36px;
+   font-size: 24px;
+}
+
+#pageBodyMain {
+   width: 940px;
+   float: right;
+}
+
+#pageBodySub {
+   width: 220px;
+   float: left;
 }
 
 #pageBody #home {
