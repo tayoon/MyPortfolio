@@ -400,6 +400,10 @@ a:hover {
    font-family: 'Courier New', Courier, monospace;
 }
 
+#pageBody {
+   text-align: left;
+}
+
 #pageBody #mainp {
    font-size: 24px;
 }
