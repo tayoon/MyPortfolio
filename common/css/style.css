@@ -398,6 +398,9 @@ a:hover {
    font-size: 50px;
    text-align: left;
    font-family: 'Courier New', Courier, monospace;
+   /* position: -webkit-sticky;
+   position: sticky;
+   top: 0; */
 }
 
 #pageBody {
