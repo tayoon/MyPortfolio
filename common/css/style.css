@@ -255,14 +255,6 @@ a:hover {
 
 Resources
 
-/* リンク */
-/* a {
-   color: #999966;
-}
-
-a:hover {
-   color: #996600;
-} */
 
 /* パンくずリスト */
 .topicPath {
@@ -329,20 +321,6 @@ a:hover {
 #pageBodySub a:hover {
    color: #003699
 }
-
-/* #pageBodySub .globalNavi {
-   border: solid #CCCCCC;
-   border-width: 1px 0;
-}
-
-#pageBodySub .grobalNavi ul {
-   margin: 0;
-   padding: 0;
-}
-
-#pageBodySub .globalNavi ul li {
-   list-style: none;
-} */
 
 .navi {
    position: relative;
