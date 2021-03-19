@@ -18,7 +18,7 @@ body {
 
 /* リンク */
 a {
-   color: #80aaff;
+   color: #bfd5ff;
    text-decoration:none;
 }
 
@@ -320,6 +320,30 @@ a:hover {
    width: 220px;
    float: left;
 }
+
+#pageBodySub a {
+   text-align: center;
+   color: #FFFFFF
+}
+
+#pageBodySub a:hover {
+   color: #003699
+}
+
+#pageBodySub .globalNavi {
+   border: solid #CCCCCC;
+   border-width: 1px 0;
+}
+
+#pageBodySub .grobalNavi ul {
+   margin: 0;
+   padding: 0;
+}
+
+#pageBodySub .globalNavi ul li {
+   list-style: none;
+}
+
 #pageBodyMain #education {
    font-size: 24px;
 }
