@@ -222,23 +222,6 @@ a:hover {
    text-shadow: none;
 }
 
-.credit {
-   margin: 24px 20px 120px 0;
-   text-align: right;
-   color: #EEEEEE;
-}
-
-.credit a {
-   padding: 8px 0;
-   color: #C49CDE;
-   text-decoration: none;
-   transition: all 0.3s ease 0s;
-}
-
-.credit a:hover {
-   text-decoration: underline;
-}
-
 .menu p {
    color: #FFFFFF;
    font-size: 16px;
@@ -253,27 +236,8 @@ a:hover {
    font-family: 'Courier', monospace;
 }
 
-Resources
+/* Resources */
 
-
-/* パンくずリスト */
-.topicPath {
-   font-size: 12px;
-}
-
-/* ページの先頭へ戻る */
-.pagetop {
-   font-size: 12px;
-   text-align: right;
-   margin-top: 30px;
-}
-
-.pagetop a {
-   background-image: url("../images/ico_pagetop.png");
-   background-repeat: no-repeat;
-   background-position: 0 50%;
-   padding-left: 10px;
-}
 
 /* ページ */
 #page {
@@ -281,15 +245,25 @@ Resources
    margin: 0 auto;
 }
 
-#pageHead #siteTitle {
+#pageHead .siteTitle {
    font-size: 50px;
    font-family: 'Courier New', Courier, monospace;
+}
+
+#mainhtop {
+   font-size: 50px;
+   text-align: left;
+   font-family: 'Courier New', Courier, monospace;
+   /* position: -webkit-sticky;
+   position: sticky;
+   top: 0; */
 }
 
 #mainh {
    font-size: 50px;
    text-align: left;
    font-family: 'Courier New', Courier, monospace;
+   margin-top: 100px;
    /* position: -webkit-sticky;
    position: sticky;
    top: 0; */
@@ -364,4 +338,8 @@ Resources
 
 #blogMain p {
    font-size: 20px;
+}
+
+.under {
+   background: linear-gradient(transparent  60%, #37c6ff88  60%);
 }
