@@ -245,6 +245,7 @@ a:hover {
    margin: 0 auto;
 }
 
+
 #pageHead .siteTitle {
    font-size: 50px;
    font-family: 'Courier New', Courier, monospace;
@@ -263,7 +264,7 @@ a:hover {
    font-size: 50px;
    text-align: left;
    font-family: 'Courier New', Courier, monospace;
-   margin-top: 100px;
+   /* margin-top: 100px; */
    /* position: -webkit-sticky;
    position: sticky;
    top: 0; */
@@ -275,6 +276,16 @@ a:hover {
 
 #pageBody #mainp {
    font-size: 20px;
+   margin-left: 40px;
+}
+
+.detail {
+   margin-left: 40px;
+}
+
+#pageBody #theme { 
+   font-size: 25px;
+   margin-left: 40px;
 }
 
 #pageBodyMain {
@@ -342,4 +353,9 @@ a:hover {
 
 .under {
    background: linear-gradient(transparent  60%, #37c6ff88  60%);
+}
+
+#pageFoot {
+   text-align: right;
+   margin-top: 100px;
 }
